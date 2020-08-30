@@ -18,8 +18,8 @@ named_window = "Trackers"
 cv.namedWindow(named_window)
 
 # Lower X and Y value tracker
-cv.createTrackbar("X", named_window, 0, 255, nothing)
-cv.createTrackbar("Y", named_window, 0, 255, nothing)
+cv.createTrackbar("X", named_window, 0, 300, nothing)
+cv.createTrackbar("Y", named_window, 0, 300, nothing)
 
 while True :
     # Read image
