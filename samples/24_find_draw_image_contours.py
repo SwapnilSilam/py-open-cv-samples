@@ -12,10 +12,10 @@ def GetImagePath(folderName, imageName):
 # Read image
 img = cv.imread(GetImagePath("Images", "opencv-logo.png"))
 
-# Converting image into grayscal image
+# Converting image into grayscale image
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
-# Get threshold image
+# Get threshold imagesss
 ret, threshold = cv.threshold(img_gray, 127, 255, 0)
 
 # Get contures (Outline/Shape) of an object fron an Image 
